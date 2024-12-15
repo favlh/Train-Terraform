@@ -6,8 +6,8 @@ resource "google_compute_firewall" "rules" {
 
 
     allow {
-        protocol    = "tcp"
-        ports       = ["22"]
+        protocol    = "tcp" 
+        ports       = ["22","80"]
         
     }
     
